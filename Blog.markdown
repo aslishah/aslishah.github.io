@@ -1,20 +1,7 @@
 ---
 layout: page
-title:  Blog
-permalink: /blog/
+title:  Applications
+permalink: /applications
 ---
 
-This is under construction
-
-. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiNmRmYThiYmEtYTBlZi00ODg1LTlkNGQtOGQ5M2EzNzhmZDkwIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9" frameborder="0" allowFullScreen="true"></iframe>
