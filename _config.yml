@@ -31,7 +31,7 @@ github_username:  aslishah
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-include-cache #aded on 3 December (just this line)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
