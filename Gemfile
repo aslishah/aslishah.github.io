@@ -9,7 +9,7 @@ gem 'jekyll-include-cache'#added on 3 december
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.5" #added 3 December
-# gem "jekyll", "~> 4.2.1" #commented out on 3 december
+gem "jekyll", "~> 4.2.1" #commented out on 3 december
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
