@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fatimid
+title: FatimidTexts
 permalink: /Fatimid
 ---
 
