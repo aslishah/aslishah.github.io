@@ -28,9 +28,10 @@ twitter_username: aslishahqurbani
 github_username:  aslishah
 
 # Build settings
-theme: minima
+theme: minima #minimal-mistakes-jekyll #(chnaged on 3 December from "minima" to minimal-mis then changed back"
 plugins:
   - jekyll-feed
+    #- jekyll-include-cache #aded on 3 December (just this line)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
