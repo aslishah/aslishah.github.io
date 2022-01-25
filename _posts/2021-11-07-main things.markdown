@@ -7,7 +7,7 @@ categories: jekyll update
 
 # Updates: 
 ## Check out my work in progress network visualisation [here](https://github.com/aslishah/Qayrawan)
-![](/network2.png){width="3.507716535433071in"
+![](/network2.png){width="2.507716535433071in"
 height="1.8472222222222223in"}
 
 # You can follow me on Twitter to get updates about my other projects: @aslishahqurbani
