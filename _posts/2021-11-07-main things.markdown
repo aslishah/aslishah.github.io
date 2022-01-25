@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 # Updates: 
-## Check out my work in progress network visualisation [here](https://github.com/aslishah/Qayrawan)
+## Check out my work in progress network visualisation [HERE](https://aslishah.github.io/Qayrawan/)
 ![](/network2.png){width="2in"
 height="1in"}
 
