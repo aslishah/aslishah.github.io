@@ -7,7 +7,7 @@ categories: jekyll update
 
 # Updates: 
 ## Check out my work in progress network visualisation [here](https://github.com/aslishah/Qayrawan)
-![](imagenetwork.png)
+![](/imagenetwork.png)
 
 # You can follow me on Twitter to get updates about my other projects: @aslishahqurbani
 
