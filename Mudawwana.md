@@ -28,4 +28,4 @@ This page shows text reuse pattern across the _Mudawwana_ (referred to as B1 or 
 
 
 
-*The template was originally developed by Sohail Merchant, who also introduced me to PowerBI.
+_The template was originally developed by Sohail Merchant_
