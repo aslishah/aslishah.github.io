@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Mudawwana
+title:  Mudawwana - المدونة الكبرى
 permalink: /mudawwana
 ---
 
