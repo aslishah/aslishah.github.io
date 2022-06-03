@@ -4,7 +4,7 @@ title:  Mudawwana
 permalink: /mudawwana
 ---
 
-<iframe title="MudawwanaApp_new - DATA FRAMES" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMzRkYjU1NGEtNTE1OC00ZmI4LWJmZDctY2E4OTMxZWUzMzMzIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="MudawwanaApp_new" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMzRkYjU1NGEtNTE1OC00ZmI4LWJmZDctY2E4OTMxZWUzMzMzIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSection86c4835e5630276d130e" frameborder="0" allowFullScreen="true"></iframe>
 
 ## About the Mudawwana App
 The app is created with PowerBI for exploring and analysing text reuse data of the _Mudawwana_ of Saḥnūn b. Saʿīd (d. 856) and the OpenITI corpus prepared by KITAB. Text reuse refers to shared passages in the _Mudawwana_ and other works in  the [OpenITI corpus](http://kitab-project.org/docs/openITI#1-what-is-openiti). Saḥnūn was the most prominent Mālikī jurist of the Islamic West who lived and taught in Qayrawān, and the study of the Mudawwana is important for our understanding of the development of the Mālikī school of law. It is hoped that this data will complement studies of the manuscript tradition of the _Mudawwana_, as well as close textual analysis. Additional computational methods, such as citation networks analysis and patters of quotation, will also be part of my future work in this direction. 
