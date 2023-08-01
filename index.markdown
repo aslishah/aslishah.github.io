@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title:  Aslisho Q
+title:   درخت تو گر بار دانش بگیرد  
 permalink: /
 ---
+![]({{apge.image | relative_url}})
