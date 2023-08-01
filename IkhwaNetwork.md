@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Ikhwan
+title:  Ikhwan al-safa
 permalink: /Ikhwan
 ---
 <iframe
