@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title:  ترجمه
-permalink: /translations
+title: 
+permalink: /
 image: /assets/Fatimids.jpg
 ---
 ![]({{page.image | relative_url}})
