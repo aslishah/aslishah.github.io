@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/Fatimids.jpg
 ---
 Aslisho is a Post-Doctoral Fellow at [KITAB](https://kitab-project.org/about/kitabis) - an  ERC-funded project. Anything published here is experimental, and mostly for the purpose  of sharing preliminary research ideas.
 
