@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title:   درخت تو گر بار دانش بگیرد  
-permalink: /
+title:  ترجمه
+permalink: /translations
+image: /assets/Fatimids.jpg
 ---
 ![]({{page.image | relative_url}})
