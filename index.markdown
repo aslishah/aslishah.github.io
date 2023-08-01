@@ -6,4 +6,4 @@ layout: home
 title:   درخت تو گر بار دانش بگیرد  
 permalink: /
 ---
-![]({{apge.image | relative_url}})
+![]({{page.image | relative_url}})
