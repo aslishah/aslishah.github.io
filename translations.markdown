@@ -9,9 +9,13 @@ permalink: /translations
 ---
 
 
-# My translations from Persian and Arabic and Turkish and other languages
+# Translations
+```
+ My translations from Persian and Arabic and Turkish and other languages
 
-## The first poem of the Divan-e Shams-i Tabriz
+ ```
+
+###### _The first poem of the Divan-e Shams-i Tabriz_
 
 You are 
 A sudden resurrection
@@ -64,8 +68,8 @@ An invisible one? (need to double check the Arabic)
 
 The Persian text of the above _ghazal_
 
-## The Persian text 
-https://ganjoor.net/moulavi/shams/ghazalsh/sh1 
+## !(The Persian text)[https://ganjoor.net/moulavi/shams/ghazalsh/sh1]
+
 
 
 ای رستخیز ناگهان وی رحمت بی‌منتها
@@ -111,7 +115,7 @@ https://ganjoor.net/moulavi/shams/ghazalsh/sh1
 
 ## A virutually unknown poem ascribed to Mawlana Rumi from my family Divan.
 
-هله لب لب لبم
+### هله لب لب لبم 
 
 چو بیاد کردگارم
 
