@@ -18,52 +18,85 @@ permalink: /translations
 ###### _The first poem of the Divan-e Shams-i Tabriz_
 
 You are 
+
 A sudden resurrection
+
 An endless bounty
+
 A burning fire
+
 In the grove of my thoughts!
 
 You came with a laugh
+
 As a key to prison
+
 A gift of God
+
 To the wretched of the world!
 
 You are the the curtain-bearer of the Sun
+
 The one that one must hope for
+
 You are the treasure
+
 And the seeker
+
 The ending
+
 And the start.
 
 You have arisen in the bosoms
+
 You have spread to the mind
+
 You have asked for a favour
+
 And redeemed it yourself!
 
 You are
+
 An inspiration like no other
+
 The joy of knowledge and action
+
 The rest is just excuses and tricks
+
 One is the sickness
+
 Another the cure!
 
 Thus we have been tricked
+
 Into delusion
+
 of hating the innocent
+
 At times loving the virgins of paradise,
+
 Sometimes intoxicant by bread and soup.
 
 Here is a drink,
+
 Forget about reason! 
+
 Here is a snack (nuql)
+
 Forget about traditions. (naql)
+
 There is no need for fuss
+
 Over food and grains.
 
 You come up
+
 With a colourful trick!
+
 Then through it on Rome and Zang
+
 Then create a war
+
 An invisible one? (need to double check the Arabic)
 
 
