@@ -66,11 +66,11 @@ Then through it on Rome and Zang
 Then create a war
 An invisible one? (need to double check the Arabic)
 
-The Persian text of the above _ghazal_
 
-## !(The Persian text)[https://ganjoor.net/moulavi/shams/ghazalsh/sh1]
+## [The Persian text](https://ganjoor.net/moulavi/shams/ghazalsh/sh1)
 
 
+```
 
 ای رستخیز ناگهان وی رحمت بی‌منتها
 
@@ -111,6 +111,8 @@ The Persian text of the above _ghazal_
 خامش که بس مُستَعجِلَم رفتم سوی پای علم
 
 کاغذ بنه بشکن قلم ساقی درآمد الصلا
+
+```
 
 
 ## A virutually unknown poem ascribed to Mawlana Rumi from my family Divan.
