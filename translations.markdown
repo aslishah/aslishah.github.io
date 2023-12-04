@@ -7,6 +7,267 @@ title:  ترجمه
 permalink: /translations
 
 ---
+
+
+# My translations from Persian and Arabic and Turkish and other languages
+
+## The first poem of the Divan-e Shams-i Tabriz
+
+You are 
+A sudden resurrection
+An endless bounty
+A burning fire
+In the grove of my thoughts!
+
+You came with a laugh
+As a key to prison
+A gift of God
+To the wretched of the world!
+
+You are the the curtain-bearer of the Sun
+The one that one must hope for
+You are the treasure
+And the seeker
+The ending
+And the start.
+
+You have arisen in the bosoms
+You have spread to the mind
+You have asked for a favour
+And redeemed it yourself!
+
+You are
+An inspiration like no other
+The joy of knowledge and action
+The rest is just excuses and tricks
+One is the sickness
+Another the cure!
+
+Thus we have been tricked
+Into delusion
+of hating the innocent
+At times loving the virgins of paradise,
+Sometimes intoxicant by bread and soup.
+
+Here is a drink,
+Forget about reason! 
+Here is a snack (nuql)
+Forget about traditions. (naql)
+There is no need for fuss
+Over food and grains.
+
+You come up
+With a colourful trick!
+Then through it on Rome and Zang
+Then create a war
+An invisible one? (need to double check the Arabic)
+
+The Persian text of the above _ghazal_
+
+## The Persian text 
+https://ganjoor.net/moulavi/shams/ghazalsh/sh1 
+
+
+ای رستخیز ناگهان وی رحمت بی‌منتها
+
+ای آتشی افروخته در بیشه اندیشه‌ها
+
+امروز خندان آمدی مفتاح زندان آمدی
+
+بر مستمندان آمدی چون بخشش و فضل خدا
+
+خورشید را حاجب تویی اومید را واجب تویی
+
+مطلب تویی طالب تویی هم منتها هم مبتدا
+
+در سینه‌ها برخاسته اندیشه را آراسته
+
+هم خویش حاجت خواسته هم خویشتن کرده روا
+
+ای روح بخش بی‌بدل وی لذت علم و عمل
+
+باقی بهانه‌ست و دغل کاین علت آمد وان دوا
+
+ما زان دغل کژبین شده با بی‌گنه در کین شده
+
+گه مست حورالعین شده گه مست نان و شوربا
+
+این سُکر بین هِل عقل را وین نُقل بین هل نَقل را
+
+کز بهر نان و بقل را چندین نشاید ماجرا
+
+تدبیر صدرنگ افکنی بر روم و بر زنگ افکنی
+
+و اندر میان جنگ افکنی فی اِصطِناعٍ لا یُری
+
+می‌مال پنهان گوش جان می‌نه بهانه بر کسان
+
+جان رَبِّ خَلِّصنی زنان والله که لاغ است ای کیا
+
+خامش که بس مُستَعجِلَم رفتم سوی پای علم
+
+کاغذ بنه بشکن قلم ساقی درآمد الصلا
+
+
+## A virutually unknown poem ascribed to Mawlana Rumi from my family Divan.
+
+هله لب لب لبم
+
+چو بیاد کردگارم
+
+هله لب لب لبم
+
+سرو پا برهنه دارم
+
+هله لب لب لبم
+
+
+
+نه امیر و پادشام
+
+نه اسیر خانقاهم
+
+نه طلب کنم سلامت
+
+نه بترسم از ملامت
+
+نه ملولم از قیامت
+
+هله لب لب لبم
+
+
+هله لب زنم چو مستان
+
+چو یکی هزار دستان
+
+به میان باغ و بستان
+
+هله لب لب لبم
+
+
+ 
+
+نه مرا زری و سیمی
+
+نه به کس امید و بیمی
+
+منم و کهنه گلیمی
+
+هله لب لب لبم
+
+
+
+هله لب به جستجویم
+
+هله لب به گفتگویم
+
+هله لب جز او نجویم
+
+هله لب لب لبم
+
+
+
+هله لب جام شرابم
+
+هله لب باده نابم
+
+هله لب سیخ کبابم
+
+هله لب لب لبم
+
+
+
+سرو ریش میتراشم
+
+دل کس نمیخراشم
+
+به قلندری خفاشم
+
+هله لب لب لبم
+
+
+
+سر و ریش ترک کردم
+
+به خدا که برنگردم
+
+چه،کنی دوای دردم
+
+هله لب لب لبم
+
+
+
+نه اسیر آز و شهوت
+
+که فتاده ام به غربت
+
+به امیدهای وصلت
+
+هله لب لب لبم
+
+
+
+هله لب مکرک آمد
+
+هله لب معظم آمد
+
+هله لب چو بی غم آمد
+
+هله لب لب لبم
+
+
+
+هله لب معدن ذکرت
+
+هله لب مایه فکراست
+
+هله لب عروس بکر است
+
+هله لب لب لبم
+
+
+
+به زبان چو ذوالفقارم
+
+به قدم چو نو بهارم
+
+همه را انیس و یارم
+
+هله لب لب لبم
+
+
+
+نظری به حالم ما کن
+
+ز کرم که میتوانی
+
+اگرم ز در برانی
+
+هله لب لب لبم
+
+
+
+هله ز در در آمد
+
+بنشست و خوش بر آمد
+
+شه هفت کشور آمد
+
+هله لب لب لبم
+
+
+
+هله لب چو شمس دین شد
+
+هله لب مرد امین شد
+
+هله لب خود یقین شد
+
+هله لب لب لبم
+
+# A qasida from the Divan of Pir and Hujjat of Khurasan Nasir Khusraw
+
+
 نکوهش مکن چرخ نیلوفری را
 
 برون کن ز سر باد و خیره‌سری را
