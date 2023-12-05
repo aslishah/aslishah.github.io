@@ -17,13 +17,11 @@ permalink: /translations
 
 ###### _The first poem of the Divan-e Shams-i Tabriz_
 
-You are 
+O sudden resurrection
 
-A sudden resurrection
+O endless bounty
 
-An endless bounty
-
-A burning fire
+O burning fire
 
 In the grove of my thoughts!
 
