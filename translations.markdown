@@ -25,6 +25,7 @@ O burning fire
 
 In the grove of my thoughts!
 
+
 You came with a laugh
 
 As a key to prison
@@ -32,6 +33,7 @@ As a key to prison
 A gift of God
 
 To the wretched of the world!
+
 
 You are the the curtain-bearer of the Sun
 
@@ -45,6 +47,7 @@ The ending
 
 And the start.
 
+
 You have arisen in the bosoms
 
 You have spread to the mind
@@ -52,6 +55,7 @@ You have spread to the mind
 You have asked for a favour
 
 And redeemed it yourself!
+
 
 You are
 
@@ -65,6 +69,7 @@ One is the sickness
 
 Another the cure!
 
+
 Thus we have been tricked
 
 Into delusion
@@ -74,6 +79,7 @@ of hating the innocent
 At times loving the virgins of paradise,
 
 Sometimes intoxicant by bread and soup.
+
 
 Here is a drink,
 
@@ -87,6 +93,7 @@ There is no need for fuss
 
 Over food and grains.
 
+
 You come up
 
 With a colourful trick!
@@ -96,6 +103,7 @@ Then through it on Rome and Zang
 Then create a war
 
 An invisible one? (need to double check the Arabic)
+
 
 
 ## [The Persian text](https://ganjoor.net/moulavi/shams/ghazalsh/sh1)
