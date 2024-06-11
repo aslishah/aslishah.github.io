@@ -3,8 +3,9 @@ layout: page
 title:  Applications
 permalink: /apps
 ---
+### _ Here are a few apps that I created in PowerBi to explore text reuse and other textual relationship._
 
-# Mudawwana of Saḥnūn
+# The Mudawwana of Saḥnūn b. Sa'id al-Qayrawānī
 
 
 <iframe title="MudawwanaApp_published - OVERVIEW" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMjcwNjBhMGEtM2U0Mi00ZmZjLTkwODQtYTk5M2YwZjk0ODM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9" frameborder="0" allowFullScreen="true"></iframe>
@@ -35,7 +36,8 @@ These pages deal with unique milestones and are still under development.
 The template was originally developed by Sohail Merchant, who also introduced me to PowerBI.
 
 
-# Biḥār al-Anwār
+# Biḥār al-Anwār of al-Majlisī, the largest premodern book 
+
 <iframe width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiOGQyZTdlMDYtMTFjMy00MzBiLWE1OGUtM2IxZDQ3MWU5MzdhIiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSectiond37e9c39c23abde0dcb2" frameborder="0" allowFullScreen="true"></iframe>
 
 Exploring the Oceans of Lights: Navigating the largest Arabic language compendium of hadith (~12 million words/tokens) by Muḥammad Bāqir al-Majlisī (d. 1111 AH).
@@ -46,8 +48,9 @@ Exploring the Oceans of Lights: Navigating the largest Arabic language compendiu
 <iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZTVkNzIwM2QtMzY1Mi00YTU3LTk1ODQtZWU2OWE5MTVmZmM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSectiondc379070149901290942" frameborder="0" allowFullScreen="true"></iframe>
 
 
-# 500
+# 500 Five Hundred Years of Arabic Book
 
 <iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYmY0OTU4YTMtYWE1MC00MzI1LThmN2EtN2JiNjAxNmZjZDE4IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
-For more information, see my blog "First Five Centuries" [here](https://kitab-project.org/b/)sssssss
+
+For more information, see my blog "First Five Centuries" [here](https://kitab-project.org/b/)
