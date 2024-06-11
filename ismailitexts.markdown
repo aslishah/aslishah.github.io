@@ -1,7 +1,7 @@
 ---
 layout: page
-title: FatimidTexts
-permalink: /Fatimid
+title: IsmailiTexts
+permalink: /Ismaili
 ---
 
 
