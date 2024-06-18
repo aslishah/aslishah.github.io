@@ -3,12 +3,12 @@ layout: page
 title:  Applications
 permalink: /apps
 ---
-### _ Here are a few apps that I created in PowerBi to explore text reuse and other textual relationship._
 
 # The Mudawwana of Saḥnūn b. Sa'id al-Qayrawānī
 
 
 <iframe title="MudawwanaApp_published - OVERVIEW" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMjcwNjBhMGEtM2U0Mi00ZmZjLTkwODQtYTk5M2YwZjk0ODM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9" frameborder="0" allowFullScreen="true"></iframe>
+The template was originally developed by Sohail Merchant, who also introduced me to PowerBI.
 
 ## About the Mudawwana App
 The app is created with PowerBI for exploring and analysing text reuse data of the _Mudawwana_ of Saḥnūn b. Saʿīd (d. 856) and the OpenITI corpus prepared by KITAB. Text reuse refers to shared passages in the _Mudawwana_ and other works in  the [OpenITI corpus](http://kitab-project.org/docs/openITI#1-what-is-openiti). Saḥnūn was the most prominent Mālikī jurist of the Islamic West who lived and taught in Qayrawān, and the study of the Mudawwana is important for our understanding of the development of the Mālikī school of law. It is hoped that this data will complement studies of the manuscript tradition of the _Mudawwana_, as well as close textual analysis. Additional computational methods, such as citation networks analysis and patters of quotation, will also be part of my future work in this direction. 
@@ -31,9 +31,6 @@ This page will also allo you to select a book and a milestone and read the reuse
 ### Pages 4-5
 
 These pages deal with unique milestones and are still under development. 
-
-<iframe width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZTVkNzIwM2QtMzY1Mi00YTU3LTk1ODQtZWU2OWE5MTVmZmM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9&pageName=ReportSectiondc379070149901290942" frameborder="0" allowFullScreen="true"></iframe>
-The template was originally developed by Sohail Merchant, who also introduced me to PowerBI.
 
 
 # Biḥār al-Anwār of al-Majlisī, the largest premodern book 
