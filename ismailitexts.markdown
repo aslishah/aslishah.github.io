@@ -1,12 +1,12 @@
 ---
 layout: page
-title: IsmailiTexts
+title: DigIT.1.0
 permalink: /Ismaili
 ---
 
 
-### I Ismaili Texts
+# DigIT1.0 - Digital Ismaili Texts
+## A Corpus of Arabic and Persian Ismaili Texts
 
-1. 
-2. 
-3. 
+[# Join us on GitHub](https://github.com/AlamutLibrary)
+[# An overview of the corpus](https://aslishah.github.io/papers/DigitalIsmailiTexts.html/)
