@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Pillars of Islam
-permalink: /Dacaim
+title: Mujmal al-Hikma
+permalink: /Mujmal
 ---
 
 <iframe
