@@ -6,7 +6,7 @@ permalink: /Mujmal-al-Hikma/
 
 <iframe
   width="100%"
-  height="1000"
+  height="600"
   src="https://mujmal.onrender.com/"
   frameBorder="0"
   title="Retina"
