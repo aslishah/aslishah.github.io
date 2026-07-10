@@ -1,19 +1,28 @@
 ---
-title: DigIT — Digital Ismaili Texts
-description: A digital corpus of Arabic and Persian Ismaili texts, openly developed on GitHub.
-order: 5
-link: https://github.com/AlamutLibrary
-linkLabel: Join us on GitHub
-tags: [corpus, Ismaili studies, Arabic, Persian]
+title: Alamut Library — DigIT 2.0
+description: A web application with search and AI chat functions for exploring the Digital Ismaili Texts corpus in Arabic and Persian.
+order: 1
+embed: https://alamutlibrary.github.io/DigIT.2.0/
+embedHeight: 800
+link: https://alamutlibrary.github.io/DigIT.2.0/
+linkLabel: Open the Alamut Library
+tags: [corpus, Ismaili studies, AI, Arabic, Persian]
 ---
 
-**DigIT 1.0 — Digital Ismaili Texts** is a corpus of Arabic and Persian
-Ismaili texts, developed openly in the
-[AlamutLibrary](https://github.com/AlamutLibrary) organisation on GitHub.
+The **Alamut Library** is a web application for exploring **DigIT 2.0 —
+Digital Ismaili Texts**, a bilingual corpus of Arabic and Persian texts on
+Ismaili thought, history, and philosophy.
 
-The corpus follows OpenITI conventions for text encoding and metadata, and is
-intended as a foundation for computational research on the Ismaili textual
-tradition — text reuse, stylometry, and corpus-based intellectual history.
+### Features
 
-Contributions are welcome: if you would like to help with digitising,
-proofreading, or tagging texts, join us on GitHub.
+- **Corpus browser and reader** — load texts from the DigIT 2.0 repository,
+  or upload your own (`.txt`, `.md`, `.ara1`, `.per1`).
+- **Search** — keyword, full-text, and RAG (retrieval-augmented) modes.
+- **AI-assisted research** — summarise, translate, explain, and compare
+  passages using your own API key for Claude, GPT-4o, Gemini, and other
+  providers.
+
+The corpus follows OpenITI conventions for text encoding and metadata, with
+URIs organising texts by author, book, and edition. It is developed openly in
+the [AlamutLibrary](https://github.com/AlamutLibrary) organisation on GitHub —
+contributions to digitising, proofreading, and tagging texts are welcome.

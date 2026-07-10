@@ -2,7 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { publications, typeLabels, type PublicationType } from '../data/publications';
 
-const order: PublicationType[] = ['book', 'article', 'thesis', 'dataset', 'essay'];
+const order: PublicationType[] = [
+  'book',
+  'chapter',
+  'article',
+  'encyclopedia',
+  'thesis',
+  'dataset',
+  'translation',
+  'essay',
+];
 
 const byType = order
   .map((type) => ({

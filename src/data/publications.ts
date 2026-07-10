@@ -4,9 +4,12 @@
 
 export type PublicationType =
   | 'book'
+  | 'chapter'
   | 'article'
+  | 'encyclopedia'
   | 'thesis'
   | 'dataset'
+  | 'translation'
   | 'essay';
 
 export interface Publication {
@@ -20,24 +23,96 @@ export interface Publication {
 }
 
 export const publications: Publication[] = [
+  // --- Books ---------------------------------------------------------------
   {
     type: 'book',
     title:
-      'Memories, Books, Communities: Making and Re-making the Past in the Arabic Textual Tradition',
+      'The Making of the Arabic Book, Volume 2: Writerly Practices, Memory and Communities',
     authors:
-      'M. Barber, L. Nigst, A. Qurboniev, S. B. Savant, G. Van Den Bossche, and P. Verkinderen',
-    venue: 'Edinburgh University Press',
-    year: 'forthcoming',
+      'Matthew Barber, Lorenz Nigst, Aslisho Qurboniev, Sarah Savant, Peter Verkinderen, and Gowaart Van Den Bossche',
+    venue: 'Edinburgh: Edinburgh University Press',
+    year: 2026,
   },
+
+  // --- Book chapters ---------------------------------------------------------
+  {
+    type: 'chapter',
+    title:
+      'A Scholarly Copyist: Early Ilkhanid Intellectual Networks through the Prism of Two Colophons, Part 2',
+    authors: 'A. Qurboniev and Gowaart Van Den Bossche',
+    venue:
+      'Literary Snippets: A Colophon Reader, ed. Sabine Schmidtke and George A. Kiraz, pp. 181–189. Gorgias Press',
+    year: 2024,
+    url: 'https://doi.org/10.31826/9781463244019-020',
+  },
+  {
+    type: 'chapter',
+    title:
+      'A Scholarly Copyist: Early Ilkhanid Intellectual Networks through the Prism of Two Colophons',
+    authors: 'A. Qurboniev and Gowaart Van Den Bossche',
+    venue:
+      'Literary Snippets: Colophons Across Space and Time, ed. Sabine Schmidtke and George A. Kiraz, pp. 431–455. Gorgias Press',
+    year: 2023,
+  },
+  {
+    type: 'chapter',
+    title: 'Studying Hadith Commentaries in the Digital Age',
+    authors: 'M. Bednarkiewicz, A. Qurboniev, and G. Van Den Bossche',
+    venue:
+      'Hadith Commentaries: Continuity and Change, ed. Joel Blecher et al., pp. 263–280. Edinburgh: Edinburgh University Press',
+    year: 2023,
+    url: 'https://doi.org/10.1515/9781474461061-014',
+  },
+  {
+    type: 'chapter',
+    title: 'Project Identity',
+    venue:
+      'Identity, History and Trans-Nationality in Central Asia: The Mountain Communities of Pamir, ed. D. Dagiev and C. Faucher, pp. 227–248. London & New York: Routledge',
+    year: 2018,
+    url: 'https://doi.org/10.4324/9781351124263',
+  },
+  {
+    type: 'chapter',
+    title: 'A Short Historical Introduction to Tajikistan',
+    venue:
+      'Trekking in Tajikistan: The Northern Ranges, Pamirs and Afghanistan’s Wakhan Corridor, by Jan Bakker and Christine Oriol, pp. 66–69. Milnthorpe: Cicerone Press',
+    year: 2018,
+  },
+
+  // --- Journal articles --------------------------------------------------------
   {
     type: 'article',
     title:
       'The Writing of Munāẓarāt in Times of Turmoil: Disputations in Fatimid Ifrīqiya',
-    venue:
-      'The Medieval Globe 5.2 — Medieval Sicily, al-Andalus, and the Maghrib: Writing in Times of Turmoil, ed. N. Carpentieri and C. Symes (Arc Humanities Press)',
+    venue: 'The Medieval Globe 5.2, pp. 59–86',
     year: 2020,
     url: 'https://doi.org/10.1515/9781641893862-005',
   },
+
+  // --- Encyclopedia entries ------------------------------------------------------
+  {
+    type: 'encyclopedia',
+    title: 'ʿAbd al-Karim al-Shahrastani (ca. 1086–1153)',
+    venue: 'Routledge Resources Online — Medieval Studies. Routledge',
+    year: 2025,
+    url: 'https://doi.org/10.4324/9780415791182-RMEO495-1',
+  },
+  {
+    type: 'encyclopedia',
+    title: 'ʿAbd Allah al-Mahdi (874–934)',
+    venue: 'Routledge Resources Online — Medieval Studies. Routledge',
+    year: 2023,
+    url: 'https://doi.org/10.4324/9780415791182-RMEO309-1',
+  },
+  {
+    type: 'encyclopedia',
+    title: 'Muʿizz li-Din Allah (931–975)',
+    venue: 'Routledge Resources Online — Medieval Studies. Routledge',
+    year: 2023,
+    url: 'https://doi.org/10.4324/9780415791182-RMEO308-1',
+  },
+
+  // --- Thesis ---------------------------------------------------------------
   {
     type: 'thesis',
     title:
@@ -46,43 +121,59 @@ export const publications: Publication[] = [
     year: 2019,
     url: 'https://doi.org/10.17863/CAM.46654',
   },
+
+  // --- Datasets & corpora -----------------------------------------------------
   {
     type: 'dataset',
-    title: 'DigIT 1.0 — Digital Ismaili Texts: A Corpus of Arabic and Persian Ismaili Texts',
+    title: 'DigIT 2.0 — Digital Ismaili Texts: A Corpus of Arabic and Persian Ismaili Texts',
     venue: 'AlamutLibrary, GitHub',
     year: 2024,
-    url: 'https://github.com/AlamutLibrary',
+    url: 'https://alamutlibrary.github.io/DigIT.2.0/',
   },
+
+  // --- Translations -------------------------------------------------------------
+  {
+    type: 'translation',
+    title: 'M. A. Salakhetdinova, ‘On Historical Toponymy of Balkh Province’',
+    venue:
+      'Translated from Russian. Originally in Palestinskii Sbornik 21(84), 1970, pp. 222–228; in Early Islamic Balkh: History, Landscape and Material Culture, ed. Robert Hoyland et al.',
+    year: 'forthcoming',
+  },
+
+  // --- Essays & blog posts ------------------------------------------------------
   {
     type: 'essay',
     title:
       'First Five Hundred Years of the Arabic Book: The Native Origin of the Authors',
-    venue: 'KITAB Project blog',
-    year: 2022,
+    venue: 'KITAB Project Research Blog',
+    year: 2021,
     url: 'https://kitab-project.org/b/',
   },
   {
     type: 'essay',
     title:
       'Between Manuscripts and Digital Texts: Commentaries on Hadith Raʾs al-Jālūt',
-    venue: 'KITAB Project blog',
-    year: 2021,
+    venue: 'KITAB Project Research Blog',
+    year: 2020,
     url: 'https://kitab-project.org/Between-Manuscripts-and-Digital-Texts-Commentaries-on-Hadith-Ra%CA%BEs-al-Jalut/',
   },
   {
     type: 'essay',
     title:
       'Algorithmic Reading of Shiʿi Hadith Collections: Direct Borrowing and Common Sources',
-    venue: 'KITAB Project blog',
-    year: 2021,
+    venue: 'KITAB Project Research Blog',
+    year: 2020,
     url: 'https://kitab-project.org/Algorithmic-Reading-of-Shi%CA%BFi-Hadith-Collections-Direct-Borrowing-and-Common-Sources/',
   },
 ];
 
 export const typeLabels: Record<PublicationType, string> = {
   book: 'Books',
-  article: 'Articles & Chapters',
+  chapter: 'Book Chapters',
+  article: 'Journal Articles',
+  encyclopedia: 'Encyclopedia Entries',
   thesis: 'Thesis',
   dataset: 'Datasets & Corpora',
+  translation: 'Translations',
   essay: 'Essays & Blog Posts',
 };

@@ -1,7 +1,7 @@
 ---
 title: Mujmal al-Hikma
 description: An interactive application for exploring the Mujmal al-Hikma, the Persian epitome of the Rasāʾil Ikhwān al-Ṣafāʾ.
-order: 1
+order: 2
 embed: https://mujmal.onrender.com/
 embedHeight: 800
 link: https://mujmal.onrender.com/
