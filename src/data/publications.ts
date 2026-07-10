@@ -119,7 +119,7 @@ export const publications: Publication[] = [
       'Traditions of Learning in Fāṭimid Ifrīqiya (296–362/909–973): Networks, Practices, and Institutions',
     venue: 'PhD thesis, University of Cambridge',
     year: 2019,
-    url: 'https://doi.org/10.17863/CAM.46654',
+    url: 'https://www.repository.cam.ac.uk/items/89caf9c3-e782-4d7a-a9a3-0d9dfd9ac4f1',
   },
 
   // --- Datasets & corpora -----------------------------------------------------
