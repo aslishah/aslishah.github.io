@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { AUTHOR, SOCIAL_LINKS } from '../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+
+const apps = (await getCollection('apps'))
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 3);
+---
+
+<BaseLayout wide>
+  <section class="hero">
+    <img src={AUTHOR.photo} alt={`Portrait of ${AUTHOR.name}`} width="180" height="180" />
+    <div>
+      <h1>{AUTHOR.name}</h1>
+      <p class="role">
+        {AUTHOR.role} · <a href="https://www.iis.ac.uk/">{AUTHOR.affiliation}</a>
+      </p>
+      <p class="intro">
+        I am a historian of the premodern Islamic world, working on the Fatimid
+        empire, scholarly networks, and the cultural history of the Arabic and
+        Persian book. I use digital and computational methods — text reuse,
+        network analysis, corpus building — to study how knowledge was made,
+        taught, and transmitted.
+      </p>
+      <p class="social">
+        {SOCIAL_LINKS.map((link) => <a href={link.url}>{link.label}</a>)}
+      </p>
+    </div>
+  </section>
+
+  <h2 class="section-title">Interactive applications</h2>
+  <div class="card-grid">
+    {apps.map((app) => (
+      <a class="card" href={`/apps/${app.id}/`}>
+        <h3>{app.data.title}</h3>
+        <p>{app.data.description}</p>
+      </a>
+    ))}
+  </div>
+  <p><a href="/apps/">All applications →</a></p>
+
+  <h2 class="section-title">Recent writing</h2>
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <FormattedDate date={post.data.pubDate} />
+        <span>
+          <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+          <span class="desc">{post.data.description}</span>
+        </span>
+      </li>
+    ))}
+  </ul>
+  <p style="margin-top: 1rem;"><a href="/blog/">All posts →</a></p>
+</BaseLayout>
+
+<style>
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 1.5rem 0 1rem;
+  }
+
+  .hero img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-border);
+    flex-shrink: 0;
+  }
+
+  .hero > div {
+    flex: 1;
+    min-width: 18rem;
+    max-width: 46rem;
+  }
+
+  .role {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin-top: -0.35rem;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+  }
+
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.15rem;
+  }
+
+  .social a {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+  }
+</style>

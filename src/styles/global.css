@@ -1,0 +1,331 @@
+/* ---------------------------------------------------------------------------
+   Global styles — academic, quiet, readable.
+   Colours are defined once as custom properties; dark mode swaps them via
+   prefers-color-scheme.
+--------------------------------------------------------------------------- */
+
+:root {
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia,
+    'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-arabic: 'Noto Naskh Arabic', 'Geeza Pro', 'Amiri', 'Scheherazade New',
+    serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-bg: #fdfcfa;
+  --color-bg-alt: #f4f1ec;
+  --color-text: #26221c;
+  --color-text-muted: #6b6459;
+  --color-accent: #8a3033; /* madder red — manuscript rubrication */
+  --color-accent-soft: #f0e2e2;
+  --color-border: #e3ddd3;
+  --color-card: #ffffff;
+  --shadow-card: 0 1px 3px rgba(38, 34, 28, 0.08), 0 4px 14px rgba(38, 34, 28, 0.05);
+
+  --width-text: 44rem;
+  --width-wide: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1a1815;
+    --color-bg-alt: #22201c;
+    --color-text: #e8e3da;
+    --color-text-muted: #a39a8c;
+    --color-accent: #d98a8c;
+    --color-accent-soft: #3a2a2a;
+    --color-border: #3a362f;
+    --color-card: #242220;
+    --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.3);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 2rem 0 0.75rem;
+}
+
+h1 { font-size: 2.1rem; margin-top: 0; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.2rem; }
+
+p { margin: 0 0 1.1rem; }
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  transition: text-decoration-color 0.15s ease;
+}
+
+a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5rem 0;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-inline-start: 3px solid var(--color-accent);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--color-bg-alt);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+pre {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* --- Layout helpers ------------------------------------------------------ */
+
+.container {
+  max-width: var(--width-text);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.container-wide {
+  max-width: var(--width-wide);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.muted { color: var(--color-text-muted); }
+
+.section-title {
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+  margin: 3rem 0 1rem;
+}
+
+/* --- Arabic / Persian text ----------------------------------------------- */
+
+[lang='ar'], [lang='fa'], .rtl {
+  direction: rtl;
+  font-family: var(--font-arabic);
+  font-size: 1.25em;
+  line-height: 2.1;
+  text-align: right;
+}
+
+.verse {
+  white-space: pre-line;
+  margin: 1.5rem 0;
+}
+
+/* --- Cards ---------------------------------------------------------------- */
+
+.card {
+  display: block;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-card);
+  padding: 1.25rem 1.4rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(38, 34, 28, 0.1), 0 10px 28px rgba(38, 34, 28, 0.08);
+}
+
+.card h3 {
+  margin: 0 0 0.4rem;
+  color: var(--color-accent);
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 1.1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+/* --- Tags / badges -------------------------------------------------------- */
+
+.tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  margin-right: 0.35rem;
+}
+
+/* --- Buttons --------------------------------------------------------------- */
+
+.button {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--color-accent);
+  border-radius: 8px;
+  padding: 0.55rem 1.1rem;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.button:hover { opacity: 0.88; }
+
+.button.secondary {
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+/* --- Embeds ---------------------------------------------------------------- */
+
+.embed-frame {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* --- Post lists ------------------------------------------------------------ */
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list li {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: baseline;
+}
+
+.post-list time {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.post-list a {
+  font-size: 1.05rem;
+}
+
+.post-list .desc {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 540px) {
+  .post-list li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+/* --- Publications ----------------------------------------------------------- */
+
+.pub-list {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.pub-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.pub-list .venue {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.pub-list .year {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}

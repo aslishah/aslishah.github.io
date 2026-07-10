@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const apps = await getCollection('apps');
+  return apps.map((app) => ({
+    params: { slug: app.id },
+    props: { app },
+  }));
+}
+
+const { app } = Astro.props;
+const { Content } = await render(app);
+---
+
+<BaseLayout title={app.data.title} description={app.data.description} wide>
+  <article>
+    <header class="app-header">
+      <div>
+        <h1>{app.data.title}</h1>
+        <p class="muted">{app.data.description}</p>
+        {app.data.tags.length > 0 && (
+          <p>
+            {app.data.tags.map((tag) => <span class="tag">{tag}</span>)}
+          </p>
+        )}
+      </div>
+      {app.data.link && (
+        <a class="button" href={app.data.link}>{app.data.linkLabel}</a>
+      )}
+    </header>
+
+    {app.data.embed && (
+      <iframe
+        class="embed-frame"
+        src={app.data.embed}
+        height={app.data.embedHeight}
+        title={app.data.title}
+        loading="lazy"
+        allowfullscreen
+      />
+    )}
+
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .app-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .app-header > div {
+    max-width: 46rem;
+  }
+
+  .prose {
+    max-width: var(--width-text);
+    margin-top: 2rem;
+  }
+</style>

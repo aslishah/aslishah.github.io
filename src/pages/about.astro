@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { AUTHOR } from '../consts';
+---
+
+<BaseLayout title="About" description={`About ${AUTHOR.name}`}>
+  <h1>About</h1>
+
+  <img
+    src="/images/aslisho.jpg"
+    alt={`Portrait of ${AUTHOR.name}`}
+    width="160"
+    height="160"
+    class="portrait"
+  />
+
+  <p>
+    I am <strong>{AUTHOR.name}</strong>, {AUTHOR.role.toLowerCase()} at
+    <a href="https://www.iis.ac.uk/">{AUTHOR.affiliation}</a>. I am a historian
+    of the Middle East and North Africa with a strong interest in Central Asian
+    and Persianate studies and cultures.
+  </p>
+
+  <p>
+    My academic studies began at Khorog State University in Tajikistan, where I
+    studied Arabic and graduated with a Specialist Diploma in Oriental Studies.
+    I hold an MPhil in Oriental Studies from the University of Oxford
+    (2012–2014; Islamic studies and history, Arabic and Ottoman Turkish), and a
+    PhD in Middle Eastern Studies from the University of Cambridge (2015–2019),
+    with a thesis entitled
+    <em>
+      Traditions of Learning in Fāṭimid Ifrīqiya (296–362/909–973): Networks,
+      Practices, and Institutions
+    </em>.
+  </p>
+
+  <p>
+    As a postdoctoral research fellow at the ERC-funded
+    <a href="https://kitab-project.org/">KITAB Project</a> (Aga Khan
+    University), my primary area of research was the Islamic West — the
+    Maghrib, al-Andalus, and Sicily — alongside contributions to the
+    <a href="https://openiti.org/">OpenITI corpus</a>. My research interests
+    include the Fatimid empire and the wider Islamicate world, premodern
+    education and knowledge practices, connectivity, book culture, and
+    computational approaches to Arabic and Persian textual traditions.
+  </p>
+
+  <p>
+    I work with English, Arabic, Persian, Turkish, Russian, Italian, and
+    French.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Email: <a href={`mailto:${AUTHOR.email}`}>{AUTHOR.email}</a><br />
+    X / Twitter: <a href="https://twitter.com/fatimid_studies">@fatimid_studies</a>
+    (academic) · <a href="https://twitter.com/aslishahqurbani">@aslishahqurbani</a>
+  </p>
+
+  <p class="muted">
+    Anything published on this site is experimental and mostly intended for
+    sharing preliminary research ideas.
+  </p>
+</BaseLayout>
+
+<style>
+  .portrait {
+    float: right;
+    border-radius: 10px;
+    margin: 0 0 1rem 1.5rem;
+    border: 1px solid var(--color-border);
+  }
+
+  @media (max-width: 540px) {
+    .portrait {
+      float: none;
+      display: block;
+      margin: 0 0 1.25rem;
+    }
+  }
+</style>

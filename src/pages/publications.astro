@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { publications, typeLabels, type PublicationType } from '../data/publications';
+
+const order: PublicationType[] = ['book', 'article', 'thesis', 'dataset', 'essay'];
+
+const byType = order
+  .map((type) => ({
+    type,
+    items: publications
+      .filter((p) => p.type === type)
+      .sort((a, b) => {
+        const ya = a.year === 'forthcoming' ? 9999 : a.year;
+        const yb = b.year === 'forthcoming' ? 9999 : b.year;
+        return yb - ya;
+      }),
+  }))
+  .filter((group) => group.items.length > 0);
+---
+
+<BaseLayout title="Publications" description="Publications by Aslisho Qurboniev">
+  <h1>Publications</h1>
+  <p class="muted">
+    For the most recent list, see my
+    <a href="https://iis.academia.edu/AslishoQurboniev">Academia.edu profile</a>.
+  </p>
+
+  {byType.map((group) => (
+    <>
+      <h2 class="section-title">{typeLabels[group.type]}</h2>
+      <ul class="pub-list">
+        {group.items.map((pub) => (
+          <li>
+            {pub.url ? <a href={pub.url}>{pub.title}</a> : <strong>{pub.title}</strong>}
+            {pub.authors && <div class="muted">{pub.authors}</div>}
+            <div>
+              <span class="venue">{pub.venue}</span>
+              {' · '}
+              <span class="year">{pub.year}</span>
+            </div>
+            {pub.note && <div class="muted">{pub.note}</div>}
+          </li>
+        ))}
+      </ul>
+    </>
+  ))}
+</BaseLayout>
