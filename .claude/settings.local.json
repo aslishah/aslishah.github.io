@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(git rm *)",
+      "Bash(git reset *)",
+      "Bash(rmdir _posts papers assets)",
+      "Bash(npm run *)"
+    ]
+  }
+}

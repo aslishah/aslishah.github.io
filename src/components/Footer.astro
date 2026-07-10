@@ -1,0 +1,50 @@
+---
+import { AUTHOR, SOCIAL_LINKS } from '../consts';
+
+const year = new Date().getFullYear();
+---
+
+<footer>
+  <div class="container-wide inner">
+    <p class="links">
+      {SOCIAL_LINKS.map((link) => <a href={link.url}>{link.label}</a>)}
+      <a href="/rss.xml">RSS</a>
+    </p>
+    <p class="muted">© {year} {AUTHOR.name}. Built with Astro.</p>
+  </div>
+</footer>
+
+<style>
+  footer {
+    border-top: 1px solid var(--color-border);
+    background: var(--color-bg-alt);
+  }
+
+  .inner {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .links a {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    text-decoration: none;
+  }
+
+  .links a:hover {
+    text-decoration: underline;
+  }
+
+  p.muted {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    margin: 0;
+  }
+</style>
