@@ -96,7 +96,7 @@ export const publications: Publication[] = [
   // --- Encyclopedia entries ------------------------------------------------------
   {
     type: 'encyclopedia',
-    title: 'ʿAbd al-Karim al-Shahrastani (ca. 1086–1153)',
+    title: 'al-Shahrastani (ca. 1086–1153)',
     venue: 'Routledge Resources Online — Medieval Studies. Routledge',
     year: 2025,
     url: 'https://doi.org/10.4324/9780415791182-RMEO495-1',
@@ -110,7 +110,7 @@ export const publications: Publication[] = [
   },
   {
     type: 'encyclopedia',
-    title: 'Muʿizz li-Din Allah (931–975)',
+    title: 'al-Muʿizz li-Din Allah (931–975)',
     venue: 'Routledge Resources Online — Medieval Studies. Routledge',
     year: 2023,
     url: 'https://doi.org/10.4324/9780415791182-RMEO308-1',
@@ -151,9 +151,9 @@ export const publications: Publication[] = [
       'First Five Hundred Years of the Arabic Book: The Native Origin of the Authors',
     venue: 'KITAB Project Research Blog',
     year: 2021,
-    url: 'https://kitab-project.org/b/',
+    url: 'https://kitab-project.org/first-five-hundred-years',
     excerpt:
-      'Where did the authors of the first five centuries of Arabic books come from? Drawing on the metadata of the OpenITI corpus, this essay maps the geographical origins of early Arabic authors and what their nisbas reveal about the making of a written tradition.',
+      'What do we know about the authors of the earliest Arabic books in terms of their native origins and linguistic and cultural backgrounds? Were the majority of them Arabic-speaking Muslims from imperial capitals, or non-Arab converts or even non-Muslims?',
     image: '/images/threemen.png',
   },
   {
@@ -164,7 +164,7 @@ export const publications: Publication[] = [
     year: 2020,
     url: 'https://kitab-project.org/Between-Manuscripts-and-Digital-Texts-Commentaries-on-Hadith-Ra%CA%BEs-al-Jalut/',
     excerpt:
-      'Tracing the commentaries on the hadith of Raʾs al-Jālūt across manuscript copies and digital corpora, and what the journey of a single text shows about combining traditional philology with computational methods.',
+      'For us as digital historians and corpus curators, faced with the complex history of reception and transmission as well as the distinct approach to learning and authorship, attributing authors to premodern Islamicate texts and representing this complexity within our corpus metadata is often a challenging task.',
     image: '/images/fatimids.jpg',
   },
   {
@@ -175,7 +175,7 @@ export const publications: Publication[] = [
     year: 2020,
     url: 'https://kitab-project.org/Algorithmic-Reading-of-Shi%CA%BFi-Hadith-Collections-Direct-Borrowing-and-Common-Sources/',
     excerpt:
-      'Applying text-reuse detection to the major Shiʿi hadith collections to distinguish direct borrowing from shared common sources, and what algorithmic reading adds to the study of hadith transmission.',
+      'It is not accidental that a large number of books in the OpenITI corpus belong to one important genre, prophetic Hadith — the sayings of the Prophet Muhammad and accounts of his practice. As a repository of the prophetic tradition (sunna), they are considered an authoritative source of law and moral guidance in Islam.',
     image: '/images/imagenetwork.png',
   },
 ];
