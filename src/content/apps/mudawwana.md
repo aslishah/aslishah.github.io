@@ -4,6 +4,7 @@ description: A Power BI application for exploring text reuse between the Mudawwa
 order: 4
 embed: "https://app.powerbi.com/view?r=eyJrIjoiMjcwNjBhMGEtM2U0Mi00ZmZjLTkwODQtYTk5M2YwZjk0ODM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9"
 embedHeight: 640
+image: /images/apps/mudawwana.jpg
 tags: [text reuse, Maliki law, Power BI, OpenITI]
 ---
 

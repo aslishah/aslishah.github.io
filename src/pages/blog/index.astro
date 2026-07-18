@@ -2,18 +2,41 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
+import { publications } from '../../data/publications';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+// Essays from the Publications list that carry an excerpt are featured as
+// cards at the top of the blog.
+const featured = publications.filter(
+  (p) => p.type === 'essay' && p.excerpt
+);
 ---
 
-<BaseLayout title="Blog" description="Notes and essays by Aslisho Qurboniev">
+<BaseLayout title="Blog" description="Notes and essays by Aslisho Qurboniev" wide>
   <h1>Blog</h1>
-  <p class="muted">
+  <p class="muted" style="max-width: 44rem;">
     Notes on Islamic history, digital humanities, and works in progress.
     Subscribe via <a href="/rss.xml">RSS</a>.
   </p>
+
+  <h2 class="section-title">Featured essays</h2>
+  <div class="card-grid">
+    {featured.map((essay) => (
+      <a class="card featured-card" href={essay.url}>
+        {essay.image && (
+          <img src={essay.image} alt="" class="thumb" loading="lazy" />
+        )}
+        <h3>{essay.title}</h3>
+        <p class="excerpt">{essay.excerpt}</p>
+        <p class="card-meta">{essay.venue} · {essay.year}</p>
+      </a>
+    ))}
+  </div>
+
+  <h2 class="section-title">All posts</h2>
   <ul class="post-list">
     {posts.map((post) => (
       <li>
@@ -26,3 +49,34 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
     ))}
   </ul>
 </BaseLayout>
+
+<style>
+  .featured-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thumb {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 0.9rem;
+    border: 1px solid var(--color-border);
+  }
+
+  .excerpt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
+
+  .card-meta {
+    margin-top: auto !important;
+    padding-top: 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.8rem !important;
+    letter-spacing: 0.03em;
+  }
+</style>

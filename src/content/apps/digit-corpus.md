@@ -6,6 +6,7 @@ embed: https://alamutlibrary.github.io/DigIT.2.0/
 embedHeight: 800
 link: https://alamutlibrary.github.io/DigIT.2.0/
 linkLabel: Open the Alamut Library
+image: /images/apps/digit-corpus.jpg
 tags: [corpus, Ismaili studies, AI, Arabic, Persian]
 ---
 

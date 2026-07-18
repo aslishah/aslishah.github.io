@@ -5,6 +5,7 @@ order: 2
 embed: https://mujmal.onrender.com/
 embedHeight: 800
 link: https://mujmal.onrender.com/
+image: /images/apps/mujmal-al-hikma.jpg
 tags: [Persian, Ikhwan al-Safa, text analysis]
 ---
 

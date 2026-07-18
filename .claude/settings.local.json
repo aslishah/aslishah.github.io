@@ -5,7 +5,10 @@
       "Bash(git rm *)",
       "Bash(git reset *)",
       "Bash(rmdir _posts papers assets)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(node \"/private/tmp/claude-502/-Users-aslisho-Documents-Post-Doc-Data-Science-DH-Hamburg-with-Maxim-Romanov-GitPages-aslishah-github-io/23fb419e-30a3-42b5-aa68-3909d675db09/scratchpad/shoot.mjs\")",
+      "Bash(node *)",
+      "WebFetch(domain:kitab-project.org)"
     ]
   }
 }

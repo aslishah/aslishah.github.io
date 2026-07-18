@@ -20,6 +20,10 @@ export interface Publication {
   year: number | 'forthcoming';
   url?: string;
   note?: string;
+  // For essays featured on the Blog page: a short teaser and a thumbnail
+  // (path under /public).
+  excerpt?: string;
+  image?: string;
 }
 
 export const publications: Publication[] = [
@@ -148,6 +152,9 @@ export const publications: Publication[] = [
     venue: 'KITAB Project Research Blog',
     year: 2021,
     url: 'https://kitab-project.org/b/',
+    excerpt:
+      'Where did the authors of the first five centuries of Arabic books come from? Drawing on the metadata of the OpenITI corpus, this essay maps the geographical origins of early Arabic authors and what their nisbas reveal about the making of a written tradition.',
+    image: '/images/threemen.png',
   },
   {
     type: 'essay',
@@ -156,6 +163,9 @@ export const publications: Publication[] = [
     venue: 'KITAB Project Research Blog',
     year: 2020,
     url: 'https://kitab-project.org/Between-Manuscripts-and-Digital-Texts-Commentaries-on-Hadith-Ra%CA%BEs-al-Jalut/',
+    excerpt:
+      'Tracing the commentaries on the hadith of Raʾs al-Jālūt across manuscript copies and digital corpora, and what the journey of a single text shows about combining traditional philology with computational methods.',
+    image: '/images/fatimids.jpg',
   },
   {
     type: 'essay',
@@ -164,6 +174,9 @@ export const publications: Publication[] = [
     venue: 'KITAB Project Research Blog',
     year: 2020,
     url: 'https://kitab-project.org/Algorithmic-Reading-of-Shi%CA%BFi-Hadith-Collections-Direct-Borrowing-and-Common-Sources/',
+    excerpt:
+      'Applying text-reuse detection to the major Shiʿi hadith collections to distinguish direct borrowing from shared common sources, and what algorithmic reading adds to the study of hadith transmission.',
+    image: '/images/imagenetwork.png',
   },
 ];
 
