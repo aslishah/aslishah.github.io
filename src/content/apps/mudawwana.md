@@ -1,7 +1,7 @@
 ---
 title: The Mudawwana Text Reuse Explorer
 description: A Power BI application for exploring text reuse between the Mudawwana of Saḥnūn (d. 240/855) and the OpenITI corpus.
-order: 4
+order: 5
 embed: "https://app.powerbi.com/view?r=eyJrIjoiMjcwNjBhMGEtM2U0Mi00ZmZjLTkwODQtYTk5M2YwZjk0ODM0IiwidCI6Ijk1ZjZmYjYyLWI1YzUtNDkwNC04NTZjLTJlYTNiNGNjZTA4MyJ9"
 embedHeight: 640
 image: /images/apps/mudawwana.jpg

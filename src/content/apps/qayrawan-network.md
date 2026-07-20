@@ -1,7 +1,7 @@
 ---
 title: Qayrawān Scholarly Networks
 description: A network visualisation of scholars and traditions of learning in Fatimid Ifrīqiya, from my doctoral research.
-order: 6
+order: 7
 link: https://aslishah.github.io/Qayrawan/
 linkLabel: Open the visualisation
 image: /images/qayrawan-network.png
