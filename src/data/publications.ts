@@ -33,9 +33,10 @@ export const publications: Publication[] = [
     title:
       'The Making of the Arabic Book, Volume 2: Writerly Practices, Memory and Communities',
     authors:
-      'Matthew Barber, Lorenz Nigst, Aslisho Qurboniev, Sarah Savant, Peter Verkinderen, and Gowaart Van Den Bossche',
+      'Matthew Barber, Lorenz Nigst, Aslisho Qurboniev, Peter Verkinderen, and Gowaart Van Den Bossche',
     venue: 'Edinburgh: Edinburgh University Press',
     year: 2026,
+    url: 'https://edinburghuniversitypress.com/book-the-making-of-the-arabic-book-volume-2.html'
   },
 
   // --- Book chapters ---------------------------------------------------------
